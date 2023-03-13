@@ -1,0 +1,199 @@
+
+
+/* new CSS */
+
+header{
+    background-color: #121430 !important;
+}
+
+/* header div.ant-row { */
+header .headerButtonsWrapper {
+    width: 50%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.headerConnetEthBtn{
+    background-color: #282e6a;    
+}
+
+
+.connectWalletButtonBox{
+    background-color: var(--additional-background-color);
+    position : fixed;
+    top:50%;
+    left:50%;
+    width:400px;
+    transform: translate(-50%,-50%);
+    z-index:1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 25%);
+}
+
+.connetWalletDropDownHeader{
+    background-color: var(--sider-background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connetWalletDropDownHeader:hover{
+    background-color: none !important;
+}
+
+.connetWalletDropDownHeader, .connetWalletDropDownFooter{
+    padding :10px ;
+    background-color: var(--sider-background-color);
+}
+
+.connectWalletButtonBoxBody {
+    padding: 0px 10px;
+}
+
+
+.buyHeaderTokenBtn{
+    background-color: var(--additional-background-color) !important;
+    border-radius: 50px !important;
+    padding: 5px 15px !important;
+    margin: 0px !important;
+    background-color: #282e6a !important;
+}
+
+
+
+
+
+
+
+
+
+.web3modal-modal-card{
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: #25284B !important;
+    width: 300px !important;
+    /* right: 0px !important; */
+    position: absolute !important;
+    right: 80px !important;
+    top: 52px !important;
+
+}
+.web3modal-provider-wrapper{
+    padding: 0px !important;
+}
+
+.web3modal-provider-container{
+    background-color: #25284B !important;
+}
+.web3modal-provider-name{
+    color : white !important;
+    width: auto !important;
+    margin: 0px !important;
+}
+.web3modal-provider-description{
+    width: auto !important;
+    display: none !important;
+}
+.web3modal-provider-container{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+    padding: 16px 16px !important;
+}
+.fqonLZ{
+    width: 30px !important;
+    height: auto !important;
+}
+.gHoDBx{
+    font-size: 16px !important;
+}
+
+.web3modal-provider-description{
+    margin-left: auto !important;
+}
+
+
+.web3modal-provider-icon{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+.kTIuLA{
+    padding: 1.25rem 1.25rem !important;
+}
+
+
+.dOTqKs{
+    padding: 1.25rem 1.25rem !important;
+}
+
+
+
+#desktop-content{
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.sc-fXqpFg{
+    /* border: 1px solid white; */
+    margin-top: auto !important;
+}
+
+
+
+.mainContentinBody007{
+    width: 100% !important;
+}
+
+
+.walletconnect-modal__base{
+    max-width: 400px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media only screen and (min-width: 768px){
+    .kpMup {
+
+        padding: 1.25rem 1.25rem !important;
+    }
+    
+    .dOTqKs{
+        padding: 1.25rem 1.25rem !important;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width:990px){
+    .headerButtonsWrapper{
+        width: 90% !important;
+        flex-direction: space-between;
+    }
+}

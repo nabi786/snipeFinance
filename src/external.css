@@ -1,0 +1,456 @@
+
+
+/* new CSS */
+
+header{
+    /* background-color: #121430 !important; */
+    padding: 0 !important;
+    height: auto !important;
+}
+header .headerButtonsWrapperContainer{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    background-color: #121430 !important;
+}
+
+/* header div.ant-row { */
+header .headerButtonsWrapper {
+    /* width: 50%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%; */
+    /* width: 100%;
+    height: auto; */
+    /* text-align: right; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headerButtonsCol{
+    margin-right: 30px !important;
+}
+header .headerButtonsWrapper .headerButtonsCol a,header .headerButtonsWrapper .headerButtonsCol button{
+    color: white;
+    font-family: Montserrat,sans-serif;
+    cursor: pointer;
+}
+
+
+header .headerRow1{
+    width: 100%;
+    height: auto;
+    background-color: #121430 !important;
+    padding: 1rem 1rem;
+}
+/* header .headerRow2{
+    width: 100%;
+    height: auto;
+    background-color: #25284b;
+    padding: 0.5rem 1rem;
+} */
+
+.headerConnetEthBtn{
+    background-color: #282e6a;   
+    font-family: Montserrat,sans-serif;  
+    color: "white";
+    border-radius: 12px;
+    padding: 5px 20px;
+}
+.headerConnetEthBtn:hover{
+    /* background-color: #121430; */
+    background-color: #15183c !important;
+}
+
+.headerConnectedBnt img{
+    transition: 0.5s !important;
+}
+.headerConnectedBnt:hover img{
+    margin-left: 10px !important;
+}
+
+.buyHeaderTokenBtn:hover{
+    background-color: #15183c !important; 
+}
+
+.connectWalletButtonBox{
+    background-color: var(--additional-background-color);
+    position : fixed;
+    top:50%;
+    left:50%;
+    width:400px;
+    transform: translate(-50%,-50%);
+    z-index:1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 25%);
+}
+
+.connetWalletDropDownHeader{
+    background-color: var(--sider-background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connetWalletDropDownHeader:hover{
+    background-color: none !important;
+}
+
+.connetWalletDropDownHeader, .connetWalletDropDownFooter{
+    padding :10px ;
+    background-color: var(--sider-background-color);
+}
+
+.connectWalletButtonBoxBody {
+    padding: 0px 10px;
+}
+
+
+.buyHeaderTokenBtn{
+    display: inline-block;
+    min-width: 100px;
+    background-color: var(--additional-background-color) !important;
+    border-radius: 50px !important;
+    padding: 5px 15px !important;
+    margin: 0px !important;
+    background-color: #282e6a !important;
+    color: white;
+    text-align: center;
+}
+.buyHeaderTokenBtn:hover{
+    background-color: #15183c !important; 
+}
+
+
+.buyHeaderTokenBtn2{
+    display: inline-block;
+    min-width: 100px;
+    /* background-color: #282e6a !important; */
+        /* background-color: var(--additional-background-color) !important; */
+    background-color: #282e6a !important;
+    border-radius: 8px !important;
+    padding: 5px 15px !important;
+    font-family:"Montserrat,sans-serif";
+    font-size: 12px !important;
+    text-align: "center";
+    margin: 5px 0 !important;
+}
+.buyHeaderTokenBtn2:hover{
+    background-color: #282e6a !important; 
+}
+.buyHeaderTokenBtn2:hover{
+    background-color: #15183c !important; 
+    /* background-color: #282e6a !important;  */
+}
+
+
+.notHover:hover{
+    background-color: unset !important; 
+}
+
+
+
+
+
+
+
+.web3modal-modal-card{
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: #25284B !important;
+    width: 300px !important;
+    /* right: 0px !important; */
+    position: absolute !important;
+    right: 80px !important;
+    top: 52px !important;
+
+}
+.web3modal-provider-wrapper{
+    padding: 0px !important;
+}
+
+.web3modal-provider-container{
+    background-color: #25284B !important;
+}
+.web3modal-provider-name{
+    color : white !important;
+    width: auto !important;
+    margin: 0px !important;
+}
+.web3modal-provider-description{
+    width: auto !important;
+    display: none !important;
+}
+.web3modal-provider-container{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+    padding: 16px 16px !important;
+}
+.fqonLZ{
+    width: 30px !important;
+    height: auto !important;
+}
+.gHoDBx{
+    font-size: 16px !important;
+}
+
+.web3modal-provider-description{
+    margin-left: auto !important;
+}
+
+
+.web3modal-provider-icon{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+.kTIuLA{
+    padding: 1.25rem 1.25rem !important;
+}
+
+
+.dOTqKs{
+    padding: 1.25rem 1.25rem !important;
+}
+
+
+
+#desktop-content{
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.sc-fXqpFg{
+    /* border: 1px solid white; */
+    margin-top: auto !important;
+}
+
+
+
+.mainContentinBody007{
+    width: 100% !important;
+}
+
+
+
+
+.walletconnect-modal__base{
+    width: 400px !important;
+}
+
+
+
+.uploadBtnInMultiSenderForm svg{
+    width: 16px !important;
+    height: 16px !important;
+}
+
+
+
+.warningModel .ant-modal-footer{
+    display:  none !important;
+    
+}
+
+
+
+.CopyBtnValue{
+    background-color: #000000eb;
+    color: white;
+    position: absolute;
+    top: -200%;
+    left: 38%;
+    transform: translate(-50%,-50%);
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 10px;
+    display: none;
+}
+.CopyBtnValue span{
+    font-size: 10px;
+}
+
+.copyBtn:hover .CopyBtnValue{
+    display: block;
+}
+
+
+
+.css-1gj6mxr-MuiListSubheader-root{
+    background-color: #1e2142 !important;
+    color: white !important;
+    text-align: center !important;
+    
+}
+
+.css-1fxbos0-MuiList-root{
+    /* background-color: #282e6a !important; */
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+
+
+
+
+.listItemsButton{
+    /* background-color: #282e6a !important; */
+}
+
+.collapseInnerBox{
+    border: 1px solid rgb(144, 151, 255) !important;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    border-radius: 5px;
+    padding: 5px 10px !important;
+}
+.collapseService{
+        background-color: #282e6a !important;
+    /* border: 1px solid white !important; */ 
+        padding: 10px !important;
+
+}
+ .collapseService svg,span{
+    /* color : #339CFD !important */
+ }
+
+
+ .servicesdopdownDownBox{
+    margin-top: 30px !important;
+}
+
+.servicesdopdownDownBox2{
+    border-radius: 10px !important;
+    overflow: hidden ;
+ }
+
+ .css-cveggr-MuiListItemIcon-root{
+    min-width: 40px !important;
+ }
+
+
+
+
+ .addressMatchBoxButtonBox{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+ }
+
+ .addressMatchBoxButtonBox button:first-child{
+    margin-right: 10px !important;
+ }
+
+ .addressMatchBoxButtonBox button{
+    background-color: #339cfd;
+    color: white !important;
+    border: 1px solid #339cfd;
+ }
+
+.feCmkO .ant-form-item-explain-error:before{
+    display: none  !important;
+}
+
+.ant-form-item-explain-error{
+    font-size: 10px !important;
+}
+
+
+
+
+
+
+#pagination .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+    border:1px solid #5cb6ff !important;
+    color:#5cb6ff;
+}
+#pagination .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root{
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+
+
+
+
+
+
+.dateTimePicker{
+    box-sizing: border-box;
+    outline: 0;
+    padding: .75rem;
+    position: relative;
+    width: 100%;
+}
+
+
+.dateTimePicker::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+
+
+.ant-upload-list-picture{
+    display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media only screen and (min-width: 768px){
+    .kpMup {
+
+        padding: 1.25rem 1.25rem !important;
+    }
+    
+    .dOTqKs{
+        padding: 1.25rem 1.25rem !important;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width:990px){
+    /* .headerButtonsWrapper{
+        width: 90% !important;
+        flex-direction: space-between;
+    } */
+}
+

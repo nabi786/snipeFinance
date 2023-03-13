@@ -1,0 +1,1 @@
+this componet is show token listing page and detial pages

@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\GBS Office Work\\lightence\\lightence-ant-design-react-template-main\\contracts\\batchtransfer.sol": {
+      "lastModificationDate": 1666993352903,
+      "contentHash": "ad3726520853b45508118d9c78a9cd2d",
+      "sourceName": "contracts/batchtransfer.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "IERC20",
+        "SnipeFinanceMultisenders"
+      ]
+    }
+  }
+}
